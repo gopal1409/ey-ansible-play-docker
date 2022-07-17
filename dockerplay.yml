@@ -10,7 +10,7 @@
           - ca-certificates
           - lsb-release
           - gnupg
-        state: present
+        state: absent
         update_cache: true
 
     - name: Add signing key
